@@ -23,9 +23,9 @@ groupNames <- c("All", "Success", "Failure", "Time_up", "Not_time_up",
                 "Time_up_Es", "Time_up_Df", "Not_time_up_Es",
                 "Not_time_up_Df")
 #model number 1:withoutBoth, 2:withSign, 3:withLength, 4:withBoth
-N_model <- 2
+N_model <- 1
 #values of each metrics
-v_mtr <- c(-1, 0, 1)
+v_mtr <- c(0, 1)
 ## options is up to here ##
 
 ## data input ##
